@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+header{
+    height:120px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+footer{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caixa1{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.caixa2{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 35px;
+    margin-top: 15px;
+}
+.caixapubli{
+    background-color: rgb(103, 102, 102);
+    height: 200px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.publi{
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    background-color: rgb(255, 255, 255);
+    min-height: 500px;
+    width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box2{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.boxpequena1{
+    background-color: rgb(255, 255, 255);
+    min-height: 160px;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    border-radius: 0;
+}
+.fotopequena{
+    background-color: rgb(255, 255, 255);
+    height: 110px;
+    width: 32%;
+}
+.texto{
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+h2{
+    font-size: 16px;
+    color: black;
+    transition: color 0.5s ease;
+    transition: all 0.5s ease;
+    font-family: comic sans MS;
+}
+h2:hover {
+    color: red;
+    transform: scale(1.1);
+}
+.foto{
+    border-radius: 15px; 
+    height: 100px;
+    width: 90%;
+}
+div{
+  border-radius: 15px; 
+}
+.fotogrande{
+    background-color: rgb(255, 255, 255);
+    height: 260px;
+    width: 470px;
+    border-radius: 15px; 
+}
+.fotoprincipal{
+    background-color: rgb(255, 255, 255);
+    height: 430px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
+.textoprincipal{
+    background-color: rgb(255, 255, 255);
+    height: 130px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+p{
+    font-size: 14px;
+    color: rgb(93, 93, 93);
+    font-family: comic sans MS;
+}
+h1{
+    color: black;
+    transition: color 0.5s ease;
+    transition: all 0.5s ease;
+    font-family: comic sans MS;
+    font-size: 22px;
+}
+h1:hover {
+    color: red;
+    transform: scale(1.1);
+}
+.boxpequena2{
+    background-color: rgb(255, 255, 255);
+    min-height: 190px;
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    border-radius: 0;
+}
+.imgpubli{
+    height: 200px;
+    width: 80%;
+}
+.logo{
+    height: 230px;
+    width: 20%;
+}
